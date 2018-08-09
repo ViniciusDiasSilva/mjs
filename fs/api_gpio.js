@@ -29,7 +29,7 @@ let GPIO = {
   
   // ## **`GPIO.read_out(pin)`**
   // Read OUT GPIO pin level. Return value: 0 or 1.
-  read: ffi('int mgos_gpio_read_out(int)'),
+  read_out: ffi('int mgos_gpio_read_out(int)'),
 
   // ## **`GPIO.enable_int(pin)`**
   // Enable interrupts on GPIO pin.
